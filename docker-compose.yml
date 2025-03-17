@@ -2,18 +2,18 @@ version: "3.8"
 
 services:
   backend:
-    build: ./url-shortner-backend
+    build: ./url-shortener-backend
     ports:
       - "5000:5000"
     depends_on:
       - postgres
     env_file:
-      - ./url-shortner-backend/.env
+      - ./url-shortener-backend/.env
     networks:
       - app-network
 
   frontend:
-    build: ./url-shortner-frontend
+    build: ./url-shortener-frontend
     ports:
       - "3000:3000"
     depends_on:
@@ -26,8 +26,8 @@ services:
     restart: always
     environment:
       POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-      POSTGRES_DB: mydatabase
+      POSTGRES_PASSWORD: myuser
+      POSTGRES_DB: myuser
     ports:
       - "5432:5432"
     networks:

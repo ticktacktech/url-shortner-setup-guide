@@ -34,7 +34,7 @@ git clone https://github.com/ticktacktech/url-shortener-backend.git
 
 git clone https://github.com/ticktacktech/url-shortener-frontend.git
 
-docker-compose up --build
+docker-compose up --build or sudo docker-compose up
 
 # PostgreSQL Database Setup
 
