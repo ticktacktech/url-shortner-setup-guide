@@ -31,6 +31,7 @@ cd url-shortner-docker
 **Clone Backend & Frontend Repositories**
 
 git clone https://github.com/ticktacktech/url-shortener-backend.git
+
 git clone https://github.com/ticktacktech/url-shortener-frontend.git
 
 docker-compose up --build
