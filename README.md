@@ -25,8 +25,6 @@ Before running the project, ensure you have:
 
 **Clone the Setup Repository**
 
-git clone <this-repo-url> url-shortner-docker
-cd url-shortner-docker
 
 **Clone Backend & Frontend Repositories**
 
@@ -34,7 +32,7 @@ git clone https://github.com/ticktacktech/url-shortener-backend.git
 
 git clone https://github.com/ticktacktech/url-shortener-frontend.git
 
-docker-compose up --build or sudo docker-compose up
+docker-compose up --build OR sudo docker-compose up -- build
 
 # PostgreSQL Database Setup
 
